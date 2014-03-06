@@ -534,7 +534,7 @@ int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_RGBA | GLUT_DOUBLE | GLUT_DEPTH);
 	glutInitWindowSize(800, 500);
-	glutCreateWindow("Shaders");
+	glutCreateWindow("Lab 3");
 	glutReshapeFunc(changeViewport);
 	glutDisplayFunc(render);
 	glutTimerFunc(10, timer, 1);
